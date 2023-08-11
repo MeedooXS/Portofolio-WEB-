@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+*{font-family: 'Roboto Mono', monospace;
+font-family: 'Work Sans', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.logo{
+    text-decoration: none;
+    color: greenyellow;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.6em;
+
+}
+
+.navigation a {
+color:chocolate;
+text-decoration: none;
+font-size: 350;
+font-weight: 500;
+padding: 8px;
+}
+.navigation a:hover{
+    color: aqua;
+}
+section{
+    padding: 25px 50px
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(ahmed.jpg) no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color:grey;
+    background-attachment: fixed;
+}
+.main h2{
+    color: #000;
+    font-size:1.8em;
+    font-weight: 500;
+} 
+.main h2 span{
+    display: inline-block;
+    margin-top: 2.5px;
+    color: greenyellow;
+    font-size: 3em;
+    font-weight:300;
+}
+.main h3{
+    color: #000;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+.main-button{
+    color: greenyellow;
+    background-color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.9375em;
+    padding-left: 65px;
+    padding-right: 65px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    align-items: center;
+    transition: 0.7s ease;
+}
+.main-button:hover{
+    background-color: greenyellow;
+    color: #000;
+    transform: scale(1.1);
+}
+
+.social-media a{
+    color:darkgray;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title{
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    color:greenyellow;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.content{
+    background-color:black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.card{
+    background-color: blueviolet;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 10px;
+    padding:25px;
+    margin: 15px;
+    transition: 0.5S ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #00bfff;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color:greenyellow;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.card-indepth{
+    background-color: black;
+    width: 36.25em;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 10px;
+    padding:20px;
+    margin: 15px;
+    transition: 0.5S ease;
+    
+
+}
+.card-indepth:hover{
+    transform: scale(1.1);
+}
+
+.info-indepth{
+    color:greenyellow;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.content-contact{
+    background-color:white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footer{
+    background-color: black;
+    color:greenyellow;
+    padding: 1em;
+    justify-content: space-between;
+    display: flex;
+
+}
